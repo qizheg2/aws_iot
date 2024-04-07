@@ -16,7 +16,7 @@ data_path = "data2/vehicle{}.csv"
 certificate_formatter = "cert_{}.pem"
 key_formatter = "private_{}.key"
 
-END_POINT = "a3en6vnl2x082q-ats.iot.us-east-1.amazonaws.com"
+END_POINT = "END_POINT"
 class MQTTClient:
     def __init__(self, device_id, cert, key):
         # For certificate based connection
